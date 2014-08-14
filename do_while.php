@@ -1,20 +1,20 @@
 <?php
 
-// 	$increment = 0;
+/*	$increment = 0;
 
-// do {
-// 	echo $increment . "\n";
-// 	$increment +=2;
-// 	usleep(500000);
-// } while ($increment <= 100);
+do {
+	echo $increment . "\n";
+	$increment +=2;
+	usleep(500000);
+} while ($increment <= 100);*/
 
 
-// $increment = 100;
+/*$increment = 100;
 
-// do {
-// 	echo $increment . "\n";
-// 	$increment -= 5;
-// }	while ($increment >= -10);
+do {
+	echo $increment . "\n";
+	$increment -= 5;
+}	while ($increment >= -10);*/
 
 $increment = 2;
 
