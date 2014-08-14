@@ -34,6 +34,7 @@ if ($z > 0 || $z < 10) {
 
 // repeat the if statement for $y and $z.
 
+
 if ($y > 0 && $y < 10) {
 	echo "$y is greater than 0 AND less than 10\n";
 }
