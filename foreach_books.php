@@ -22,3 +22,18 @@ $books = array(
         'pages' => 544
     )
 );
+
+// echo $books['The Hobbit']['published'];
+
+	foreach($books as $key => $value) {
+		if ($books[$key]['published'] >= 1950) {
+		
+		echo $key . " Facts:\n";
+		
+		foreach($value as $item => $content) {
+			echo ucfirst($item) . ": {$content}\n";
+			}
+		
+		echo "-------------------------------\n";
+		}
+}
