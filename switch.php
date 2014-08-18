@@ -33,3 +33,19 @@ switch($day_of_week) {
 		break;
 	//etc through day 7
 }
+
+if($day_of_week == 1) {
+	echo 'Monday';
+} elseif($day_of_week == 2) {
+	echo 'Tuesday';
+} elseif($day_of_week == 3) {
+	echo 'Wednesday';
+} elseif($day_of_week == 4) {
+	echo 'Thursday';
+} elseif($day_of_week == 5) {
+	echo 'Friday';
+} elseif($day_of_week == 6) {
+	echo 'Saturday';
+} elseif($day_of_week == 7) {
+	echo 'Sunday';
+}
