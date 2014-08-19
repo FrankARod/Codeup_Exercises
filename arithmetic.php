@@ -3,52 +3,49 @@
 function verified($a, $b, $check_divide_by_zero = false) {
     if ($check_divide_by_zero) {
         if ($b == 0) {
-            echo "ERROR: Please do not divide by zero. You entered $a and $b" . PHP_EOL;
             return false;
         } 
     }
     if (is_numeric($a) && is_numeric($b)) {
         return true;
     } else {
-        echo "ERROR: Pleas enter only numeric values. You entered $a and $b" . PHP_EOL;
         return false;
     }
 
 }
 
-
-function add($a, $b){
+function add($a, $b) {
     if (verified($a, $b)) {
-     echo $a + $b . PHP_EOL; 
+        return $a + $b; 
     }
 }
 
-function subtract($a, $b){
-    if (verified($a, $b)){
-        echo $a - $b . PHP_EOL;
+function subtract($a, $b) {
+    if (verified($a, $b)) {
+        return $a - $b;
     }
 }
 
-function multiply($a, $b){
-    if (verified($a, $b)){
-	   echo $a * $b . PHP_EOL;
+function multiply($a, $b) {
+    if (verified($a, $b)) {
+	   return $a * $b;
     }
 }
 
-function divide($a, $b){
-    if (verified($a, $b, true)){
-    	echo $a / $b . PHP_EOL;
+function divide($a, $b) {
+    if (verified($a, $b, true)) {
+    	return $a / $b;
     }
 }
 
-function modulus($a, $b){
-	if (verified($a, $b, true)){
-        echo $a % $b . PHP_EOL;
+function modulus($a, $b) {
+	if (verified($a, $b, true)) {
+        return $a % $b;
     }
 }
 
-add(3, 'five');
-subtract(5, 'fore');
-multiply(1, '7');
-divide(6, 0);
-modulus(6, 2);
+echo add(3, 'five') . PHP_EOL;
+echo subtract(5, 'fore') . PHP_EOL;
+echo multiply(1, '7') . PHP_EOL;
+echo divide(6, 0) . PHP_EOL;
+echo modulus(6, 2) . PHP_EOL;
