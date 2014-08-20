@@ -7,11 +7,7 @@ $compare = ['Tina', 'Dean', 'Mel', 'Amy', 'Michael'];
 
 function result_found($query, $array) {
  	$result = array_search($query, $array);
- 	if ($result === FALSE) {
- 		return FALSE;
- 	} else {
- 		return TRUE;
- 	}
+ 	return $result === FALSE ? FALSE : TRUE;
  }
 
 function values_in_common($array1, $array2) {
