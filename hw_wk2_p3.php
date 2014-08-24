@@ -88,5 +88,13 @@ function add_car($cars) {
 	var_dump($cars);
 	return $cars;
 }
+
+function save_to_file($data, $filename) {
+	$handle = fopen("data/$filename", 'w');
+	fwrite($handle, $data);
+	fclose($handle);
+}
+$list = list_cars($cars);
 $cars = add_car($cars);
 echo list_cars($cars);
+save_to_file($list, "list.txt");
