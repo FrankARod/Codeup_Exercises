@@ -7,7 +7,7 @@
  // if $x < $y < $z then echo "{$x} < {$y} < {$z}\n";
 
  if ($x < $y && $y < $z) {
- 	echo "{$x} < {$y} < {$z}\n";
+	echo "{$x} < {$y} < {$z}\n";
  }
 
  // if $x is greater than 0 OR less than 10, echo the result as a sentence "$x is greater than 0 OR less than 10".

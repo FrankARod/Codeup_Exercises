@@ -1,35 +1,35 @@
 <?php
 
 $cars = array(
-    'Toyota Solara' => array(
-        'year' => 2001,
-        'doors' => 2,
-        'color' => 'gray',
-        'mileage' => 100000,
-        'sunroof' => true,
-        'convertable' => false,
-        'license' => 'JSRULZ',
-    ),
+	'Toyota Solara' => array(
+		'year' => 2001,
+		'doors' => 2,
+		'color' => 'gray',
+		'mileage' => 100000,
+		'sunroof' => true,
+		'convertable' => false,
+		'license' => 'JSRULZ',
+	),
 
-    'Honda Odyssey' => array(
-        'year' => 2004, 
-        'doors' => 4,
-        'color' => 'marron',
-        'mileage' => 60000,
-        'sunroof' => false,
-        'convertable' => false,
-        'license' => 'ILUVPHP',
-    ),
+	'Honda Odyssey' => array(
+		'year' => 2004, 
+		'doors' => 4,
+		'color' => 'marron',
+		'mileage' => 60000,
+		'sunroof' => false,
+		'convertable' => false,
+		'license' => 'ILUVPHP',
+	),
 
-    'Cadillac Escalade' => array(
-        'year' => 2014,
-        'doors' => 4,
-        'color' => 'white',
-        'mileage' => 5000,
-        'sunroof' => false,
-        'convertable' => false,
-        'license' => 'HTML5',
-    ),
+	'Cadillac Escalade' => array(
+		'year' => 2014,
+		'doors' => 4,
+		'color' => 'white',
+		'mileage' => 5000,
+		'sunroof' => false,
+		'convertable' => false,
+		'license' => 'HTML5',
+	),
 
 );
 
